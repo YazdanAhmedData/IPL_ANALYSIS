@@ -1,122 +1,58 @@
-# 🏏 IPL Analysis — Tableau Dashboard
+# IPL Analysis | Tableau Dashboard
 
-<img width="2890" height="1644" alt="image" src="https://github.com/user-attachments/assets/7c9927bb-6eaa-409f-8517-6db916150a69" />
+A sports analytics project exploring Indian Premier League (IPL) matches using match-level and ball-by-ball data from 2008–2020. Tableau is used to organize the data into visual views of team, player, and match performance.
 
+## Objective
 
-A data analytics and visualization project analyzing Indian Premier League (IPL) matches from **2008 to 2020** using match-level and ball-by-ball data.
+Explore historical IPL performance and make match and ball-level data easier to compare through interactive visualization.
 
-The project uses Tableau to transform IPL datasets into interactive visualizations and dashboards.
+## Analytical Questions
 
-## 🎯 Project Objective
+- How do team results vary across seasons?
+- Which players stand out on available batting and bowling measures?
+- How do match outcomes relate to toss decisions, venues, and other available match attributes?
+- What patterns emerge when match-level information is examined alongside ball-by-ball records?
 
-The objective of this project is to explore IPL match data and identify meaningful patterns related to teams, players, matches, runs, wickets, and overall tournament performance.
+These are descriptive questions. Historical patterns do not by themselves establish that a factor caused a match result or predict future performance.
 
-## 📂 Dataset
+## Tools and Data
 
-The repository contains two primary datasets:
+- **Tableau** — dashboards and visual analysis
+- **IPL Matches 2008–2020.csv** — match-level records
+- **IPL Ball-by-Ball 2008–2020.csv** — delivery-level records
 
-### IPL Matches Dataset
+## Repository Contents
 
-```text
-IPL Matches 2008-2020.csv
-```
+| File | Purpose |
+|---|---|
+| `IPL_Analysis.twb` | Tableau workbook |
+| `IPL_DASHBOARD.pdf` | Dashboard export |
+| `IPL Matches 2008-2020.csv` | Match-level dataset |
+| `IPL Ball-by-Ball 2008-2020.csv` | Ball-by-ball dataset |
 
-This dataset contains match-level information from IPL seasons between 2008 and 2020.
+## Analysis Areas
 
-### IPL Ball-by-Ball Dataset
+- Team and season performance
+- Player statistics
+- Match outcomes and match context
+- Ball-by-ball patterns
 
-```text
-IPL Ball-by-Ball 2008-2020.csv
-```
+## How to Explore
 
-This dataset contains detailed ball-by-ball information from IPL matches.
+1. Review both datasets and their grain: one row per match versus one row per delivery.
+2. Open `IPL_Analysis.twb` in Tableau Desktop.
+3. Use the PDF for a quick preview of the dashboard.
+4. Validate metric definitions and filters in the workbook before comparing results.
 
-Together, these datasets provide both high-level match information and detailed delivery-level information.
+## Reporting Recommendations
 
-## 📊 Tableau Dashboard
+For a stronger analytical case study, report a small set of verified findings, explain how each metric is calculated, and include a short section on how a team analyst or sports editor might use the insights. Avoid unsupported claims and account for differences in matches, seasons, and player opportunities when comparing raw totals.
 
-The analysis was developed using Tableau.
+## Skills Demonstrated
 
-Main project files include:
+Tableau · Data visualization · Multi-grain datasets · Sports analytics · KPI interpretation · Analytical storytelling
 
-```text
-IPL_Analysis.twb
-IPL_DASHBOARD.pdf
-```
+## Author
 
-## 🔍 Analysis Areas
-
-The project can be used to explore:
-
-### Team Performance
-- Team-wise performance
-- Match results
-- Winning patterns
-- Season-level comparisons
-
-### Player Analysis
-- Player performance
-- Batting contributions
-- Bowling contributions
-- Player-level statistics
-
-### Match Analysis
-- Match outcomes
-- Toss-related information
-- Venue-based analysis
-- Season comparisons
-
-### Ball-by-Ball Analysis
-The detailed delivery-level dataset enables deeper analysis of:
-
-- Runs
-- Wickets
-- Overs
-- Batting performance
-- Bowling performance
-- Match situations
-
-## 🛠️ Tools & Technologies
-
-- Tableau
-- CSV
-- Data Analysis
-- Data Visualization
-- Business Intelligence
-
-## 📁 Project Structure
-
-```text
-IPL_ANALYSIS/
-│
-├── IPL Ball-by-Ball 2008-2020.csv
-├── IPL Matches 2008-2020.csv
-├── IPL_Analysis.twb
-├── IPL_DASHBOARD.pdf
-└── README.md
-```
-
-## 🎓 Key Learning Outcomes
-
-This project helped me develop practical skills in:
-
-- Working with large datasets
-- Data visualization
-- Tableau dashboards
-- Sports analytics
-- Aggregation and filtering
-- Interactive business intelligence
-
-## 💡 Analytical Value
-
-Sports datasets provide an excellent opportunity to demonstrate data analytics because they contain large amounts of structured historical information.
-
-This project demonstrates how raw match and ball-by-ball data can be transformed into meaningful visual insights.
-
-## 👨‍💻 Author
-
-**Yazdan Ahmed**
-
-Data Analytics & Machine Learning Enthusiast
-
-GitHub: [YazdanAhmedData](https://github.com/YazdanAhmedData)
+**Yazdan Ahmed**  
+[GitHub Portfolio](https://github.com/YazdanAhmedData)
